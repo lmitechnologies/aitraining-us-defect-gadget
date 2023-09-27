@@ -1,5 +1,20 @@
 {
     "configs_def":[
-
+        {
+            "name": "path_engine",
+            "default_value": "${PIPELINE_SERVER_SETTINGS_MODELS_ROOT}/best.engine"
+        },
+        {
+            "name": "class_map",
+            "default_value": {"0":"outer", "1":"inner"}
+        },
+        {
+            "name": "confidence_outer",
+            "default_value": 0.5
+        },
+        {
+            "name": "confidence_inner",
+            "default_value": 0.5
+        }
     ]
 }
